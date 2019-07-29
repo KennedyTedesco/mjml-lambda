@@ -1,6 +1,8 @@
+## mjml-lambda
+
 Converting MJML to HTML on AWS Lambda. Using the Serverless Framework.
 
-Input:
+**Input:**
 
 ````json
 {
@@ -8,7 +10,7 @@ Input:
 }
 ````
 
-Output:
+**Output:**
 
 ```json
 {
