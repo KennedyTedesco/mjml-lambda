@@ -16,4 +16,5 @@ provider:
 
 functions:
   to-html:
+    description: 'MJML to HTML'
     handler: handler.convert
