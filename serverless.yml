@@ -1,0 +1,19 @@
+service: mjml
+
+plugins:
+  - serverless-webpack
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: prod
+  region: sa-east-1
+
+functions:
+  to-html:
+    handler: handler.convert
