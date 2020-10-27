@@ -6,20 +6,20 @@
     "deploy": "serverless deploy"
   },
   "author": "Kennedy Tedesco <kennedyt.tw@gmail.com>",
-  "license": "private",
+  "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-source-map-support": "^1.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1",
-    "serverless-webpack": "^5.3.1",
-    "webpack": "^4.38.0",
-    "webpack-node-externals": "^1.7.2"
+    "babel-core": "^6.26",
+    "babel-loader": "^7.1",
+    "babel-plugin-source-map-support": "^1.0",
+    "babel-plugin-transform-runtime": "^6.23",
+    "babel-preset-env": "^1.7",
+    "babel-preset-stage-3": "^6.24",
+    "serverless-webpack": "^5.3",
+    "webpack": "^4.38",
+    "webpack-node-externals": "^1.7"
   },
   "dependencies": {
-    "mjml": "^4.4.0",
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26",
+    "mjml": "^4.7"
   }
 }
