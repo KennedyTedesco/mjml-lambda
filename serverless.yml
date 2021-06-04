@@ -10,9 +10,10 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
   stage: prod
   region: sa-east-1
+  lambdaHashingVersion: 20201221
 
 functions:
   to-html:
