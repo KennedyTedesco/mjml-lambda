@@ -14,7 +14,7 @@
     "babel-plugin-transform-runtime": "^6.23",
     "babel-preset-env": "^1.7",
     "babel-preset-stage-3": "^6.24",
-    "serverless-webpack": "^5.5",
+    "serverless-webpack": "^5.5.1",
     "webpack": "^5.39",
     "webpack-node-externals": "^3.0.0"
   },
