@@ -15,11 +15,11 @@
     "babel-preset-env": "^1.7",
     "babel-preset-stage-3": "^6.24",
     "serverless-webpack": "^5.5",
-    "webpack": "^5.38",
-    "webpack-node-externals": "^2.5"
+    "webpack": "^5.39",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
     "babel-runtime": "^6.26",
-    "mjml": "^4.9"
+    "mjml": "^4.10"
   }
 }
