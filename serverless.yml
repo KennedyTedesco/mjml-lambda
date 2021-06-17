@@ -11,6 +11,7 @@ custom:
 provider:
   name: aws
   runtime: nodejs14.x
+  memorySize: 2048
   stage: prod
   region: sa-east-1
   lambdaHashingVersion: 20201221
